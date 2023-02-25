@@ -7,7 +7,7 @@ function App() {
    const [link, setLink] = useState('');
 
   const configuration = new Configuration({
-    apiKey: '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',
+    apiKey: //use your key,
   });
   const openai = new OpenAIApi(configuration);
   const generateImage=async()=>{
