@@ -1,0 +1,35 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #242424;
+  color: white;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-input{
+  height: 50px;
+  width: 400px;
+  margin: 20px;
+  color: white;
+  background-color: #535050;
+}
+
+.output{
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.result{
+  background-color: #535050;
+  border: 1px;
+}
+
+.result:hover{
+  border: white;
+}
